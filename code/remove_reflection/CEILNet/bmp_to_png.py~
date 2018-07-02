@@ -1,0 +1,5 @@
+import os
+import cv2
+for subfile in os.listdir('/home/xinchao/workplace/CEILNet/daoying_imaegs/'):
+  img=cv2.imread('/home/xinchao/workplace/CEILNet/daoying_imaegs/'+subfile)
+  cv2.imwrite('/home/xinchao/workplace/CEILNet/daoying_imaegs/'+subfile.split('.bmp')[0]+'.png'+,img)

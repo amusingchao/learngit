@@ -1,0 +1,40 @@
+#ifndef FLOORIMAGE_H
+#define FLOORIMAGE_H
+
+#include"KeyFrame.h"
+#include "Map.h"
+
+#include <opencv2/opencv.hpp>
+#include <mutex>
+
+
+class MakeMap
+{
+public:
+    
+    void BuildMap(const cv::Mat& inputDepth,float *wheel_x,float *wheel_y,float *wheel_z,float *yaw,const cv::Mat& outputMap)
+    // Main thread
+    
+    // 
+     
+
+    //
+   
+    
+    
+    
+
+
+protected:
+
+    private:
+    int xPos;
+    int yPos;
+
+    
+
+}
+
+
+
+#endif
